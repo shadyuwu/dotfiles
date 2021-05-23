@@ -30,3 +30,12 @@ sudo pacman -S feh imagemagick python-pip python-pywal
 
 sudo pacman -S cairo libxcb python2 xcb-proto xcb-util-image xcb-util-wm xcb-util-xrm jsoncpp
 yay -S polybar-git
+
+# font
+yay -S otf-overpass
+
+# ranger
+sudo pacman -S w3m
+ranger --copy-config=scope
+
+
